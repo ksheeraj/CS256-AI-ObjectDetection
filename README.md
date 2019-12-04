@@ -17,6 +17,15 @@ The list below provides instructions on how to implement the deep learning model
 - Finetuned Faster R-CNN
   - [Google COLAB Instructions]()
 
+## Architecture Diagrams
+
+![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_1.png)
+![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_2.png)
+![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_3.png)
+![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_4.png)
+![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_5.png)
+![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_6.png)
+
 ## Quickstart
 See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
 
