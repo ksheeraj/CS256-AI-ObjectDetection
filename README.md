@@ -6,7 +6,7 @@ The primary objective of our project was to improve human and object detection o
 ## INSTALLATION
 The list below provides instructions on how to implement the deep learning models and image filters we used.
 - Faster R-CNN
-  - [AWS Instructions](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Faster%20R-CNN_AWS_Instructions.pdf)
+  - See [Faster R-CNN_AWS_Instructions.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Faster%20R-CNN_AWS_Instructions.pdf)
   - [Google COLAB Instructions]()
 - EnlightenGAN
   - See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf)
