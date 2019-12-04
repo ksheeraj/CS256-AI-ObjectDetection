@@ -1,10 +1,21 @@
 # CS256-AI-ObjectDetection
 
-## Summary
-The primary objective of our project is to improve human and object detection on low-light/dark images. We've used [EnlightenGAN](https://arxiv.org/abs/1906.06972) and have also tried EnlightenGAN with different combinations of image filters such as Contrast Limited Adaptive Histogram Equalization (CLAHE) and Unsharp Mask (USM) to enhance low-light/dark images. The model that we used for human and object detection on these enlightened images was [Faster R-CNN](https://arxiv.org/abs/1506.01497) and found significant improvement in the performance. For more details, please refer to the [project report](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/CS256_ProjectReport.pdf).
+## Project Summary
+The primary objective of our project was to improve human and object detection on low-light/dark images. We've used [EnlightenGAN](https://arxiv.org/abs/1906.06972) and have also tried EnlightenGAN with different combinations of image filters such as Contrast Limited Adaptive Histogram Equalization (CLAHE) and Unsharp Mask (USM) to enhance low-light/dark images. The model that we used for human and object detection on these enlightened images was [Faster R-CNN](https://arxiv.org/abs/1506.01497) and found significant improvement in the performance. For more details, please refer to the [project report](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/CS256_ProjectReport.pdf).
 
 ## INSTALLATION
-See [INSTALL_EnlightenGAN.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/INSTALL_EnlightenGAN)
+The list below provides instructions on how to implement the deep learning models and image filters we used.
+- Faster R-CNN
+  - [AWS Instructions]()
+  - [Google COLAB Instructions]()
+- EnlightenGAN
+  - See [INSTALL_EnlightenGAN.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/INSTALL_EnlightenGAN)
+- CLAHE
+  - 
+- USM
+  - 
+- Finetuned Faster R-CNN
+  - [Google COLAB Instructions]()
 
 ## Quickstart
 See [GETTING_STARTED.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/GETTING_STARTED.md), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
