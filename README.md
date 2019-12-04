@@ -10,9 +10,9 @@ The list below provides instructions on how to implement the deep learning model
   - [Google COLAB Instructions]()
 - EnlightenGAN
   - See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf)
-- CLAHE
+- Contrast Limited Adaptive Histogram Equalization (CLAHE)
   - 
-- USM
+- Unsharp Mask (USM)
   - 
 - Finetuned Faster R-CNN
   - [Google COLAB Instructions]()
