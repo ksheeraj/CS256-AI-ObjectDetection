@@ -18,7 +18,7 @@ The list below provides instructions on how to implement the deep learning model
   - [Google COLAB Instructions]()
 
 ## Quickstart
-See [GETTING_STARTED.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/GETTING_STARTED.md), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
+See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
 
 ## Citing Detectron2 and EnlightenGAN
 
