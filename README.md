@@ -1,7 +1,7 @@
 # CS256-AI-ObjectDetection
 
 ## Summary
-Our main objective is to improve human/object detection on low-light images. We've used [EnlightenGAN](https://github.com/TAMU-VITA/EnlightenGAN) and have also tried EnlightenGAN with different combinations of filters such as CLAHE-Contrast Limited Adaptive Histogram Equalization and USM-Unsharp Mask to enlighten low-light images. We have then used [FasterRCNN](https://github.com/facebookresearch/detectron2) for object detection on these enlightened images and found significant improvement in the performance.
+The primary objective of our project is to improve human and object detection on low-light/dark images. We've used [EnlightenGAN](https://arxiv.org/abs/1906.06972) and have also tried EnlightenGAN with different combinations of image filters such as Contrast Limited Adaptive Histogram Equalization (CLAHE) and Unsharp Mask (USM) to enhance low-light/dark images. The model that we used for human and object detection on these enlightened images was [Faster R-CNN] ((https://arxiv.org/abs/1506.01497) and found significant improvement in the performance. For more details, please refer to the [project report] (https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/CS256_ProjectReport.pdf).
 
 ## INSTALLATION
 See [INSTALL_EnlightenGAN.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/INSTALL_EnlightenGAN)
