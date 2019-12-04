@@ -9,7 +9,7 @@ The list below provides instructions on how to implement the deep learning model
   - [AWS Instructions]()
   - [Google COLAB Instructions]()
 - EnlightenGAN
-  - See [INSTALL_EnlightenGAN.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/INSTALL_EnlightenGAN)
+  - See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf)
 - CLAHE
   - 
 - USM
