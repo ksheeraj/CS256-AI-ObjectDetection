@@ -26,4 +26,14 @@ See [GETTING_STARTED.md](https://github.com/ksheeraj/CS256-AI-ObjectDetection/bl
   year={2019}
 }
 ```
+## About:
 
+This page(code, report and presentation) is the Group A submission for the final project of the course CS256: Topics in Artificial Intelligence, Section 2 at San Jose State University. Led by Instructor: Mashhour Solh, Ph.D.
+
+The group members are: Anket Sah, Amala Chirayil, Ksheeraj Sai Vepuri, Kriti Gupta, Sanmesh Bhosale.
+
+The code maybe used for educational and commercial use under no warranties. For questions on this project and code please reach out to: amalachirayil@gmail.com.
+
+Credits:
+
+This project was conducted with free credits provided by AWS Educate Team. Thank you AWS!
