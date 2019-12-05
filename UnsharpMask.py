@@ -15,20 +15,19 @@ def unsharp_mask(image, kernel_size=(5, 5), sigma=1.0, amount=1.0, threshold=0):
     return sharpened
 
 
-image = cv.imread('test.jpg')
+image = cv.imread('test_image.jpg')
 sharpened_image = unsharp_mask(image)
-cv.imwrite('my-sharpened-image.png', sharpened_image)
+cv.imwrite('unsharpmask_test_image.jpg', sharpened_image)
 
 
-image = cv.imread(cv.samples.findFile('my-sharpened-image.png'))
-if image is None:
-    print('Could not open or find the image: ', 'test.jpg')
+img = cv.imread(cv.samples.findFile('unsharpmask_test_image.jpg'))
+if img is None:
+    print('Could not open or find the image: ', 'unsharpmask_test_image.jpg')
     exit(0)
-new_image = np.zeros(image.shape, image.dtype)
 
-alpha = 3.0
-beta = 33
+contrast = 3.0
+brightness = 33
 
-new_img = cv.convertScaleAbs(image, alpha = alpha, beta = beta)
-cv.imwrite('test_sharp&bright.jpg', new_img)
+new_img = cv.convertScaleAbs(img, alpha = contrast, beta = brightness)
+cv.imwrite('unsharpmask_test_image.jpg', new_img)
 cv.waitKey()
