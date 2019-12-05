@@ -28,7 +28,7 @@ Based on this diagram, we are feeding in a few low-light/dark images into Enligh
 
 ![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_3.png)
 
-Based on this diagram, we are feeding in a few low-light/dark images into an image filter, called CLAHE. This filter will. Then the image outputs of this filter will be fed into the same Faster R-CNN model that we have been using thus far. **The intent of this experiment is to examine how Faster R-CNN performs on low-light/dark images that have been fed through an image filter.**
+Based on this diagram, we are feeding in a few low-light/dark images into an image filter, called CLAHE. This filter will compute several histograms, each corresponding to a distinct section of the image, and use them to redistribute the lightness values of the image. Then the image outputs of this filter will be fed into the same Faster R-CNN model that we have been using thus far. **The intent of this experiment is to examine how Faster R-CNN performs on low-light/dark images that have been fed through an image filter.**
 
 ![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_4.png)
 
