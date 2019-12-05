@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
-img = cv2.imread('original_sharp&bright_fake_B.png', 0)
+img = cv2.imread('test_image.jpg', 0)
 
 clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
 cl1 = clahe.apply(img)
 
-cv2.imwrite('original_sharp&bright_fake_B_clahe.png', cl1)
+cv2.imwrite('clahe_test_image.jpg', cl1)
 
 # Initialize intensity values with 256 zeroes
 intensity_count = [0] * 256
