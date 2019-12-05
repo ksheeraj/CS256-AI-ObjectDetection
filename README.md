@@ -36,7 +36,7 @@ As showcased in this diagram, the first two steps are a subset of Architecture D
 
 ![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_5.png)
 
-As showcased in this diagram, the last three steps are a subset of Architecture Diagram 4. For this experiment, we are feeding in a few low-light/dark images into an image filter, called USM. This filter will amplify the high-frequency components of an image and produce an output with better contrast and brightness. We will be taking the output images produced by the USM filter and feed it through EnlightenGAN and follow Architecture Diagram 4 thereafter. **The intent of this experiment is to examine how Faster R-CNN performs on images that have been applied with a combination of image filters and EnlightenGAN.**
+As showcased in this diagram, the last three steps are a subset of Architecture Diagram 4. For this experiment, we are feeding in a few low-light/dark images into an image filter, called USM. This filter will amplify the high-frequency components of an image and produce an output with better contrast and brightness. We will be taking the output images produced by the USM filter and feed it through EnlightenGAN and follow Architecture Diagram 4 thereafter. **The intent of this experiment is to examine how Faster R-CNN performs on images that have been applied with a combination of image filters before and after EnlightenGAN.**
 
 ![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_6.png)
 
