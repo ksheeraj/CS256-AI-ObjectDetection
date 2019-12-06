@@ -71,4 +71,3 @@ The code maybe used for educational and commercial use under no warranties. For 
 Credits:
 
 This project was conducted with free credits provided by AWS Educate Team. Thank you AWS!
-
