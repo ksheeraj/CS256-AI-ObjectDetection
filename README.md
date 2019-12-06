@@ -40,6 +40,8 @@ As showcased in this diagram, the last three steps are a subset of Architecture 
 
 ![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_6.png)
 
+Based on this diagram, we are finetuning our pretrained FasterRCNN using enlightened COCO dataset images. We're first feeding 5000 images from the COCO validation dataset through the enlightenGAN. These output images are combined into a custom dataset which are then used to finetune our existing FasterRCNN model. **The intent of this approach was to improve object detection on the output images produced by EnlightenGAN. As the enlightened images contain noise, we were hoping that the model would get better at detecting objects in this noise. This experiment turned out to work perfectly and the resulting fine-tuned FasterRCNN performed much better.**
+
 ## Quickstart
 See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
 
