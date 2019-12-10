@@ -8,7 +8,7 @@ The primary objective of our project was to improve human and object detection o
 The list below provides instructions on how to implement the deep learning models and image filters we used.
 - Faster R-CNN
   
-  We implemented the Faster R-CNN model on both AWS and Google COLAB.
+  *We implemented the Faster R-CNN model on both AWS and Google COLAB.*
   
   - See [Faster R-CNN_AWS_Instructions](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Faster%20R-CNN_AWS_Instructions.pdf)
   - See [Google COLAB Instructions](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z)
@@ -19,9 +19,11 @@ The list below provides instructions on how to implement the deep learning model
 - Finetuned Faster R-CNN
   - See [Google COLAB Instructions](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z)
 
-Note: The same COLAB file is used for Faster R-CNN and finetuned Faster R-CNN.
+**Note:** The same COLAB file is used for Faster R-CNN and finetuned Faster R-CNN.
 
 ## Architecture Diagrams
+
+Now that you have installed the required deep learning models and image filters, you can use them to run through each of the architecture diagrams below.
 
 ![alt text](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Architecture_Diagrams/Architecture_Diagram_1.png)
 
