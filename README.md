@@ -10,11 +10,13 @@ The list below provides instructions on how to implement the deep learning model
   - See [Faster R-CNN_AWS_Instructions.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Faster%20R-CNN_AWS_Instructions.pdf)
   - [Google COLAB Instructions](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z)
 - EnlightenGAN
-  - See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf)
+  - See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_AWS_Instructions.pdf)
 - CLAHE & USM
   - See [CLAHE&UnsharpMask_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Filters/CLAHE%26UnsharpMask_Setup.pdf)
 - Finetuned Faster R-CNN
   - [Google COLAB Instructions](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z)
+
+Note: The same COLAB file is used for Faster R-CNN and finetuned Faster R-CNN.
 
 ## Architecture Diagrams
 
