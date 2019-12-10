@@ -6,17 +6,17 @@ The primary objective of our project was to improve human and object detection o
 
 ## INSTALLATION
 The list below provides instructions on how to implement the deep learning models and image filters we used.
-- Faster R-CNN
+- **Faster R-CNN**
   
   *We implemented the Faster R-CNN model on both AWS and Google COLAB.*
   
   - See [Faster R-CNN_AWS_Instructions](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Faster%20R-CNN_AWS_Instructions.pdf)
   - See [Google COLAB Instructions](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z)
-- EnlightenGAN
+- **EnlightenGAN**
   - See [EnlightenGAN_Setup](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_AWS_Instructions.pdf)
-- CLAHE & USM
+- **CLAHE & USM**
   - See [CLAHE&UnsharpMask_Setup](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/Filters/CLAHE%26UnsharpMask_Setup.pdf)
-- Finetuned Faster R-CNN
+- **Finetuned Faster R-CNN**
   - See [Google COLAB Instructions](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z)
 
 **Note:** The same COLAB file is used for Faster R-CNN and finetuned Faster R-CNN.
@@ -50,7 +50,7 @@ As showcased in this diagram, the last three steps are a subset of Architecture 
 Based on this diagram, we are finetuning our pretrained FasterRCNN using enlightened COCO dataset images. We're first feeding 5000 images from the COCO validation dataset through the enlightenGAN. These output images are combined into a custom dataset which are then used to finetune our existing FasterRCNN model. **The intent of this approach was to improve object detection on the output images produced by EnlightenGAN. As the enlightened images contain noise, we were hoping that the model would get better at detecting objects in this noise. This experiment turned out to work perfectly and the resulting fine-tuned FasterRCNN performed much better.**
 
 ## Quickstart
-See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_Setup.pdf), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
+See [EnlightenGAN_Setup.pdf](https://github.com/ksheeraj/CS256-AI-ObjectDetection/blob/master/EnlightenGAN_AWS_Instructions.pdf), or the [Colab Notebook](https://colab.research.google.com/drive/1RaWxgclMB8RpITo8Kci1qTecfm8iT61z#scrollTo=dq9GY37ml1kr).
 
 ## Citing Detectron2 and EnlightenGAN
 
